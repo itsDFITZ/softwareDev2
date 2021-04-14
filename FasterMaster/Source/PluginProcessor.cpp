@@ -10,11 +10,11 @@
 #include "PluginProcessor.h"
 #include "PluginEditor.h"
 #include "RMSComp.h"
-#include "Normalize.h"
+//#include "Normalize.h"
 #include "SoftClip.h"
 #include "VUAnalysis.h"
-#include "juce_dsp.h"
-#include "juce_Compressor.h"
+//#include "juce_dsp.h"
+//#include "juce_Compressor.h"
 
 //==============================================================================
 FasterMasterAudioProcessor::FasterMasterAudioProcessor()

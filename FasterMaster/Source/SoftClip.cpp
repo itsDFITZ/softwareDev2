@@ -10,25 +10,25 @@
 #include <stdio.h>
 
 using namespace std;
-SoftClip::SoftClip(){};
+//SoftClip::SoftClip(){};
 
 void SoftClip::softClip(float * signal, const int numSamples, const int c){};
 //float SoftClip::processSample(float x, int c){
 //    return 1.f;
 //};
 
-void SoftClip::processSample(float * signal, const int numSamples, const int c) {
+float SoftClip::processSample(float x, int channel) {
     
     float thresh = .99f;
-    float x = x;
+    x = x;
     
-
-      
        if (x > thresh)
            x = thresh;
        if (x < -thresh)
            x = -thresh;
        
-        
-    }
-}
+    return x;
+    
+};
+
+

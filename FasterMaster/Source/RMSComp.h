@@ -14,7 +14,7 @@ public:
     RMSComp(){};
     void rmsComp(float * signal, const int numSamples, const int c);
     void processSignal(float * signal, const int numSamples, const int c);
-    float processSample(float x,int channel){return x;};
+    float processSample(float x,int channel);
 //    void setThreshold(float newThreshold);
     void setRatio(float newRatio);
     void setAttack (float newAttack);
@@ -26,7 +26,7 @@ private:
     
 //    int thresh;
 //    float ratio;
-  float x;
+    float x;
     float x_dB;
     float gainChange_dB;
     float gainSC;

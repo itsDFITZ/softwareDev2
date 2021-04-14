@@ -9,6 +9,12 @@
             file="Source/PluginProcessor.cpp"/>
       <FILE id="fN2Fs6" name="PluginProcessor.h" compile="0" resource="0"
             file="Source/PluginProcessor.h"/>
+      <FILE id="th3Jas" name="VUAnalysis.h" compile="0" resource="0" file="Source/VUAnalysis.h"/>
+      <FILE id="Yyx4vZ" name="SoftClip.h" compile="0" resource="0" file="Source/SoftClip.h"/>
+      <FILE id="DfCTIj" name="SoftClip.cpp" compile="1" resource="0" file="Source/SoftClip.cpp"/>
+      <FILE id="DOWIMP" name="SimpleMeter.h" compile="0" resource="0" file="Source/SimpleMeter.h"/>
+      <FILE id="WW2loc" name="RMSComp.h" compile="0" resource="0" file="Source/RMSComp.h"/>
+      <FILE id="Q1JCwr" name="RMSComp.cpp" compile="1" resource="0" file="Source/RMSComp.cpp"/>
       <FILE id="zF4I5e" name="PluginEditor.cpp" compile="1" resource="0"
             file="Source/PluginEditor.cpp"/>
       <FILE id="SjBHZv" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
